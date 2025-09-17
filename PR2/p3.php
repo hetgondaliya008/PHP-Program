@@ -1,0 +1,12 @@
+<?php
+$a=array(array(10,10.5,"atmiya","true"),array(20,true,20.5),array(3.5,false,"atmiya"));
+for($i=0;$i<3;$i++)
+{
+for($j=0;$j<3;$j++)
+{
+echo"a[$i][$j]=".$a[$i][$j];
+}
+echo"<br>";
+}
+print_r($a);
+?>
